@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Texto para Voz</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <div id="theme-toggle" class="theme-toggle">🌙</div>
+
+    <div class="container">
+        <h1>Conversor de Texto para Voz</h1>
+
+        <div class="main-content">
+            <textarea id="text-input" placeholder="Digite seu texto aqui para ser lido..."
+                class="text-input"></textarea>
+
+            <div class="controls">
+                <label for="voice-select">Selecione a voz:</label>
+                <select id="voice-select"></select>
+            </div>
+
+            <button id="read-button" class="read-button">Ler Texto</button>
+        </div>
+    </div>
+
+    <script src="./src/scripts/scripts.js"></script>
+</body>
+
+</html>
